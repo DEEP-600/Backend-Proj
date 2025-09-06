@@ -1,0 +1,18 @@
+{
+  "name": "final_proj",
+  "version": "1.0.0",
+  "description": "a backend practice proj",
+  "keywords": [
+    "nope"
+  ],
+  "license": "ISC",
+  "author": "batman",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
