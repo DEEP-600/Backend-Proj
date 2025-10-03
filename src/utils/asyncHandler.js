@@ -1,8 +1,6 @@
-import res from "express/lib/response"
-
 const asyncHandler = (requestHandler)=>{
-    (res,req,next)=>{
-        Promise.resolve(requestHandler(res,req,next)).catch(next)
+    return (req,res,next)=>{
+        Promise.resolve(requestHandler(req,res,next)).catch(next)
     }
 }
 
